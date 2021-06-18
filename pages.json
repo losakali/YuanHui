@@ -1,0 +1,136 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			// 首页
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+			// 登录页
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+			// 注册页
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/computer/computer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电脑硬件",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mySet/mySet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+			// 电脑配置页
+            "path" : "pages/pcDiy/pcDiy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电脑配置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hardware/hardware",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电脑硬件",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// 标题栏文字颜色
+		"navigationBarTextStyle": "white",
+		// 标题栏标题
+		"navigationBarTitleText": "首页",
+		// 标题栏背景色
+		"navigationBarBackgroundColor": "#4876FF",
+		// 窗口背景色 即body背景色
+		"backgroundColor": "#F8F8F8"
+	},
+	// 底部导航栏
+	"tabBar":{
+		// 选中时的文字颜色
+		"selectedColor":"#1296db",
+		// 未选中时的文字颜色
+		"color":"#000",
+		// 图标的宽度 高度按比例缩小
+		"iconWidth":"20px",
+		// 图标和文字的间距
+		"spacing":"5px",
+		"list":[{
+			// 底部导航栏对应文字
+			"text":"首页",
+			// 跳转的地址
+			"pagePath":"pages/index/index",
+			// 未选中时的图标
+			"iconPath":"static/index.png",
+			// 选中时的图标
+			"selectedIconPath":"static/index_icon.png"
+		},{
+			// 底部导航栏对应文字
+			"text":"订单",
+			// 跳转的地址
+			"pagePath":"pages/order/order",
+			// 未选中时的图标
+			"iconPath":"static/order.png",
+			// 选中时的图标
+			"selectedIconPath":"static/order_icon.png"
+		},{
+			// 底部导航栏对应文字
+			"text":"硬件",
+			// 跳转的地址
+			"pagePath":"pages/computer/computer",
+			// 未选中时的图标
+			"iconPath":"static/computer.png",
+			// 选中时的图标
+			"selectedIconPath":"static/computer_icon.png"
+		},{
+			// 底部导航栏对应文字
+			"text":"我的",
+			// 跳转的地址
+			"pagePath":"pages/mySet/mySet",
+			// 未选中时的图标
+			"iconPath":"static/mySet.png",
+			// 选中时的图标
+			"selectedIconPath":"static/mySet_icon.png"
+		}]
+	}
+}
